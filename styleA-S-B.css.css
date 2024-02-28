@@ -1,0 +1,19 @@
+body {
+  margin: 50px;
+}
+input {
+  width: 20px;
+  background-color: ghostwhite;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 1s;
+  background-image: url(icons/search_FILL0_wght400_GRAD0_opsz24.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(180, 0, 0);
+}
+input:hover,
+input:focus {
+  width: 200px;
+  background-position: center right 5%;
+}
